@@ -144,7 +144,92 @@ Grad-CAM results were obtained from the last convolutional layer of the [Xceptio
 
 ## Architecture Diagram
 
-The architecture diagram or flowchart for the project can be found in the `docs` directory or as part of the project documentation.
+```markdown
+
+## Architecture Diagram
+
+```
++-------------------------------+
+|            Training           |
++-------------------------------+
+              |
+              v
++-------------------------------+
+|         Knee X-ray            |
+|           Dataset             |
++--------------+----------------+
+               |
+               v
++--------------+----------------+
+|      Data Preprocessing       |
+|                               |
+|  - Data Cleaning              |
+|  - Data Transformation        |
+|  - Feature Engineering        |
+|  - Data Augmentation          |
+|  - Splitting                  |
++--------------+----------------+
+               |
+               v
++--------------+----------------+
+|      Feature Extraction       |
+|                               |
+|  - Image Processing           |
+|  - Feature Selection          |
++--------------+----------------+
+               |
+               v
++--------------+----------------+
+|       Model Training          |
+|                               |
+|  - Model Selection            |
+|  - Hyperparameter Tuning      |
+|  - Training                   |
+|      (Using Xception)         |
++-------------------------------+
+               |
+               v
++-------------------------------+
+|           Testing             |
++-------------------------------+
+               |
+               v
++-------------------------------+
+|         Knee X-ray            |
+|           Dataset             |
++--------------+----------------+
+               |
+               v
++--------------+----------------+
+|      Data Preprocessing       |
+|                               |
+|  - Data Cleaning              |
+|  - Data Transformation        |
+|  - Feature Engineering        |
+|  - Data Augmentation          |
+|  - Splitting                  |
++--------------+----------------+
+               |
+               v
++--------------+----------------+
+|      Feature Extraction       |
+|                               |
+|  - Image Processing           |
+|  - Feature Selection          |
++--------------+----------------+
+               |
+               v
++--------------+----------------+
+|       Model Testing           |
+|                               |
+|  - Model Evaluation           |
+|  - Model Validation           |
+|  - Prediction                 |
+|      (Using Xception)         |
++-------------------------------+
+```
+
+```
 
 ## References
 
