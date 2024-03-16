@@ -64,7 +64,7 @@ How does the Web App to **predict** knee osteoarthritis grade using **Deep Learn
 - Run it:
 
     ```shell
-    (knee_dl_app)$: streamlit run app.py
+    (app)$: streamlit run app.py
     ```
 
     As soon as you run the script, a local Streamlit server will spin up, and your app will open in a new tab in your default web browser.
