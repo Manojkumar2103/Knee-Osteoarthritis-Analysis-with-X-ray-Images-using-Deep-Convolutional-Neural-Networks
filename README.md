@@ -109,7 +109,6 @@ The following table presents the summary of the partial results obtained in the 
 | --------------------| ----------------- | -------------- |
 | Xception fine-tuning| 67%               | 68min          |
 
-![Confusion Matrix](assets/confusion_matrix_3_models.png)
 
 Highlighting, the highest success rate of each model by class, we have:
 
