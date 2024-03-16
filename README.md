@@ -100,7 +100,7 @@ Three strategies were implemented to reduce the impact that the unbalanced base 
 
 #### Pre-trained Networks
 
-Three pre-trained networks were chosen: [Xception](https://arxiv.org/abs/1610.02357), [ResNet-50](https://arxiv.org/abs/1512.03385), and [Inception Resnet v2](https://arxiv.org/abs/1602.07261v2).
+pre-trained networks: [Xception](https://arxiv.org/abs/1610.02357)
 
 The following table presents the summary of the partial results obtained in the implementation of the different pre-trained networks with fine-tuning. Our metric is Balanced Accuracy. Models were trained on Apple M1 Pro chip with 8-core CPU, 14-core GPU, and 16-core Neural Engine.
 
@@ -141,4 +141,3 @@ The web application allows you to select and load an X-Ray image, to later predi
 - [Complex data mining](https://www.ic.unicamp.br/~mdc/) at [unicamp](https://www.unicamp.br/unicamp/).
 - [Knee Osteoarthritis Dataset with Severity Grading](https://www.kaggle.com/datasets/shashwatwork/knee-osteoarthritis-dataset-with-severity)
 
-Please feel free to make any further adjustments or additions as needed!
