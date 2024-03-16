@@ -51,9 +51,6 @@ The project aims to correctly classify the severity of knee osteoarthritis based
 
 [Link to Demo Video](https://www.youtube.com/watch?v=your-demo-video-id)
 
-## Live Links
-
-- [Knee Osteoarthritis Dataset with Severity Grading](https://www.kaggle.com/datasets/shashwatwork/knee-osteoarthritis-dataset-with-severity)
 
 ## Project Setup
 
