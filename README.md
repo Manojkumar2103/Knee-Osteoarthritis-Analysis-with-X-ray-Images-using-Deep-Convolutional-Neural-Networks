@@ -26,10 +26,10 @@ The purpose of this project is to correctly classify the severity of osteoarthri
 
 ## Team Members
 
-1. K. Manoj Kumar
-2. K. Praveen Kumar Reddy
-3. K. Kiran Kumar
-4. K. Vinod Kumar Reddy
+1. KALVA MANOJ KUMAR - 9921004301@klu.ac.in
+2. KODUMURU PRAVEEN KUMAR REDDY - 9921004345@klu.ac.in
+3. KOLLA KIRAN KUMAR REDDY - 99210041565@klu.ac.in
+4. KANCHAMREDDY VINOD KUMAR REDDY - 9921004310@klu.ac.in
 
 ## Problem Solved
 
