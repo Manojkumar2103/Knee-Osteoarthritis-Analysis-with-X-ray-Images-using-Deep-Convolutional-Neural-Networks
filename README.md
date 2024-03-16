@@ -47,25 +47,23 @@ The project aims to correctly classify the severity of knee osteoarthritis based
 - Fine-tuning pre-trained CNN models for optimal performance.
 - Implementing explainability techniques to understand model predictions.
 
-## Project Structure
+## Demo Video
 
-```shell
-.
-├── README.md
-├── app
-│   ├── app.py
-├── assets
-├── dataset
-│   ├── test
-│   ├── train
-│   └── val
-├── environment.yml
-└── src
-    ├── 01_data_preparation.ipynb
-    ├── 02_model_xception.ipynb
-    └── models
-        └── model_Xception_ft.hdf5
-```
+[Link to Demo Video](https://www.youtube.com/watch?v=your-demo-video-id)
+
+## Images
+
+![KL Score](assets/kl-score.png)
+![Confusion Matrix](assets/confusion_matrix_3_models.png)
+![Healthy](assets/Healthy.png)
+![Doubtful](assets/Doubtful.png)
+![Minimal](assets/Minimal.png)
+![Moderate](assets/Moderate.png)
+![Severe](assets/Severe.png)
+
+## Live Links
+
+- [Knee Osteoarthritis Dataset with Severity Grading](https://www.kaggle.com/datasets/shashwatwork/knee-osteoarthritis-dataset-with-severity)
 
 ## Project Setup
 
@@ -132,7 +130,7 @@ Highlighting, the highest success rate of each model by class, we have:
 
 ### Model evaluation
 
-We evaluated the best model in the test set, a balanced accuracy of 71% was obtained, and in the confusion matrix, we can observe the highlight of the moderate and severe classes.
+We evaluated the best modelin the test set, a balanced accuracy of 71% was obtained, and in the confusion matrix, we can observe the highlight of the moderate and severe classes.
 
 #### Explainability
 
@@ -148,12 +146,22 @@ Grad-CAM results were obtained from the last convolutional layer of the [Xceptio
 ![Moderate](assets/Moderate.png)
 ![Severe](assets/Severe.png)
 
-## Demo Video
+## Technologies Used
 
-[Link to Demo Video](https://www.youtube.com/watch?v=your-demo-video-id)
+- Python
+- TensorFlow/Keras
+- Streamlit
+- Pandas
+- Matplotlib
+- Scikit-learn
 
+## Architecture Diagram
+
+The architecture diagram or flowchart for the project can be found in the `docs` directory or as part of the project documentation.
 
 ## References
 
 - [Complex data mining](https://www.ic.unicamp.br/~mdc/) at [unicamp](https://www.unicamp.br/unicamp/).
-- [Knee Osteoarthritis Dataset with Severity Grading](https://www.kaggle.com/datasets/shashwatwork/knee-osteoarthritis-dataset-with-severity)
+- [Knee Osteoarthritis Dataset with Severity Grading](https://www.kaggle.com/datasets/shashwat
+
+work/knee-osteoarthritis-dataset-with-severity)
