@@ -57,14 +57,14 @@ How does the Web App to **predict** knee osteoarthritis grade using **Deep Learn
 
 ### Clone this repository
 
-(base)$: cd knee_OA_dl_app
+(base)$: cd app
 
 ### Configure environment
 
 - Run it:
 
     ```shell
-    (knee_dl_app)$: streamlit run app/app.py
+    (knee_dl_app)$: streamlit run app.py
     ```
 
     As soon as you run the script, a local Streamlit server will spin up, and your app will open in a new tab in your default web browser.
@@ -116,7 +116,7 @@ Highlighting, the highest success rate of each model by class, we have:
 
 ### Model evaluation
 
-We evaluated the [best model](src/02_ensemble_models.ipynb) in the test set, a balanced accuracy of 71% was obtained, and in the confusion matrix, we can observe the highlight of the moderate and severe classes.
+We evaluated the best modelin the test set, a balanced accuracy of 71% was obtained, and in the confusion matrix, we can observe the highlight of the moderate and severe classes.
 
 #### Explainability
 
