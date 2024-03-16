@@ -31,6 +31,22 @@ The purpose of this project is to correctly classify the severity of osteoarthri
 3. K. Kiran Kumar
 4. K. Vinod Kumar Reddy
 
+## Problem Solved
+
+The project aims to correctly classify the severity of knee osteoarthritis based on X-ray images, providing a non-invasive and efficient method for diagnosis and monitoring of the disease.
+
+## Use Cases
+
+- Automated diagnosis of knee osteoarthritis severity.
+- Monitoring disease progression over time.
+- Assisting healthcare professionals in treatment planning.
+
+## Challenges Faced
+
+- Handling an unbalanced dataset with varying class distributions.
+- Fine-tuning pre-trained CNN models for optimal performance.
+- Implementing explainability techniques to understand model predictions.
+
 ## Project Structure
 
 ```shell
@@ -116,7 +132,7 @@ Highlighting, the highest success rate of each model by class, we have:
 
 ### Model evaluation
 
-We evaluated the best modelin the test set, a balanced accuracy of 71% was obtained, and in the confusion matrix, we can observe the highlight of the moderate and severe classes.
+We evaluated the best model in the test set, a balanced accuracy of 71% was obtained, and in the confusion matrix, we can observe the highlight of the moderate and severe classes.
 
 #### Explainability
 
@@ -132,12 +148,12 @@ Grad-CAM results were obtained from the last convolutional layer of the [Xceptio
 ![Moderate](assets/Moderate.png)
 ![Severe](assets/Severe.png)
 
-### Web application development with the best model
+## Demo Video
 
-The web application allows you to select and load an X-Ray image, to later predict and evaluate the loss in joint spacing, and indicate the probability of disease severity, as well as the area that most impacted the classification score.
+[Link to Demo Video](https://www.youtube.com/watch?v=your-demo-video-id)
+
 
 ## References
 
 - [Complex data mining](https://www.ic.unicamp.br/~mdc/) at [unicamp](https://www.unicamp.br/unicamp/).
 - [Knee Osteoarthritis Dataset with Severity Grading](https://www.kaggle.com/datasets/shashwatwork/knee-osteoarthritis-dataset-with-severity)
-
