@@ -38,7 +38,6 @@ The purpose of this project is to correctly classify the severity of osteoarthri
 ├── README.md
 ├── app
 │   ├── app.py
-│   └── img
 ├── assets
 ├── dataset
 │   ├── test
