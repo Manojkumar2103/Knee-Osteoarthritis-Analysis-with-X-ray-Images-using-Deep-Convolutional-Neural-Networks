@@ -51,16 +51,6 @@ The project aims to correctly classify the severity of knee osteoarthritis based
 
 [Link to Demo Video](https://www.youtube.com/watch?v=your-demo-video-id)
 
-## Images
-
-![KL Score](assets/kl-score.png)
-![Confusion Matrix](assets/confusion_matrix_3_models.png)
-![Healthy](assets/Healthy.png)
-![Doubtful](assets/Doubtful.png)
-![Minimal](assets/Minimal.png)
-![Moderate](assets/Moderate.png)
-![Severe](assets/Severe.png)
-
 ## Live Links
 
 - [Knee Osteoarthritis Dataset with Severity Grading](https://www.kaggle.com/datasets/shashwatwork/knee-osteoarthritis-dataset-with-severity)
