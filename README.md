@@ -49,7 +49,7 @@ The project aims to correctly classify the severity of knee osteoarthritis based
 
 ## Demo Video
 
-[Link to Demo Video](https://www.youtube.com/watch?v=your-demo-video-id)
+[Link to Demo Video](https://www.youtube.com/watch?v=your-demo-video-id](https://www.dropbox.com/scl/fi/ad3croxydcxq5yd6ncdjn/ManojK.mp4?rlkey=iwrr124stz026o9sse2lh1nef&dl=0))
 
 
 ## Project Setup
